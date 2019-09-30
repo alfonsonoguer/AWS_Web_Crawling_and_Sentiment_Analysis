@@ -1,0 +1,2601 @@
+[{
+		"Name": "segment_1566027312025.20_file_00201",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00201.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00201",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00202",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00202.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00202",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00203",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00203.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00203",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00204",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00204.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00204",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00205",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00205.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00205",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00206",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00206.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00206",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00207",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00207.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00207",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00208",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00208.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00208",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00209",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00209.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00209",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00210",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00210.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00210",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00211",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00211.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00211",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00212",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00212.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00212",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00213",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00213.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00213",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00214",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00214.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00214",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00215",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00215.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00215",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00216",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00216.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00216",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00217",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00217.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00217",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00218",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00218.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00218",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00219",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00219.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00219",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00220",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00220.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00220",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00221",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00221.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00221",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00222",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00222.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00222",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00223",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00223.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00223",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00224",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00224.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00224",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00225",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00225.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00225",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00226",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00226.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00226",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00227",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00227.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00227",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00228",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00228.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00228",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00229",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00229.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00229",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00230",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00230.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00230",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00231",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00231.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00231",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00232",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00232.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00232",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00233",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00233.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00233",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00234",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00234.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00234",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00235",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00235.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00235",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00236",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00236.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00236",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00237",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00237.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00237",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00238",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00238.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00238",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00239",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00239.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00239",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00240",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00240.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00240",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00241",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00241.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00241",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00242",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00242.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00242",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00243",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00243.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00243",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00244",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00244.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00244",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00245",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00245.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00245",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00246",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00246.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00246",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00247",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00247.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00247",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00248",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00248.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00248",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00249",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00249.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00249",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00250",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00250.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00250",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00251",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00251.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00251",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00252",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00252.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00252",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00253",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00253.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00253",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00254",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00254.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00254",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00255",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00255.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00255",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00256",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00256.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00256",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00257",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00257.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00257",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00258",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00258.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00258",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00259",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00259.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00259",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00260",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00260.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00260",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00261",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00261.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00261",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00262",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00262.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00262",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00263",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00263.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00263",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00264",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00264.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00264",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00265",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00265.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00265",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00266",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00266.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00266",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00267",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00267.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00267",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00268",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00268.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00268",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00269",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00269.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00269",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00270",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00270.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00270",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00271",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00271.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00271",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00272",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00272.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00272",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00273",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00273.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00273",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00274",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00274.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00274",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00275",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00275.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00275",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00276",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00276.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00276",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00277",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00277.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00277",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00278",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00278.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00278",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00279",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00279.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00279",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00280",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00280.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00280",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00281",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00281.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00281",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00282",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00282.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00282",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00283",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00283.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00283",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00284",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00284.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00284",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00285",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00285.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00285",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00286",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00286.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00286",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00287",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00287.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00287",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00288",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00288.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00288",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00289",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00289.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00289",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00290",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00290.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00290",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00291",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00291.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00291",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00292",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00292.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00292",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00293",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00293.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00293",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00294",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00294.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00294",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00295",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00295.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00295",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00296",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00296.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00296",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00297",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00297.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00297",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00298",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00298.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00298",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00299",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00299.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00299",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00300",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00300.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00300",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00301",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00301.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00301",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00302",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00302.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00302",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00303",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00303.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00303",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00304",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00304.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00304",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00305",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00305.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00305",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00306",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00306.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00306",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00307",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00307.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00307",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00308",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00308.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00308",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00309",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00309.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00309",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00310",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00310.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00310",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00311",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00311.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00311",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00312",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00312.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00312",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00313",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00313.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00313",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00314",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00314.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00314",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00315",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00315.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00315",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00316",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00316.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00316",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00317",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00317.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00317",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00318",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00318.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00318",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00319",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00319.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00319",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00320",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00320.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00320",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00321",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00321.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00321",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00322",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00322.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00322",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00323",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00323.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00323",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00324",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00324.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00324",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00325",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00325.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00325",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00326",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00326.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00326",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00327",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00327.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00327",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00328",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00328.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00328",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00329",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00329.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00329",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00330",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00330.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00330",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00331",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00331.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00331",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00332",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00332.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00332",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00333",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00333.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00333",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00334",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00334.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00334",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00335",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00335.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00335",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00336",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00336.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00336",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00337",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00337.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00337",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00338",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00338.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00338",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00339",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00339.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00339",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00340",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00340.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00340",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00341",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00341.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00341",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00342",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00342.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00342",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00343",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00343.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00343",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00344",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00344.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00344",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00345",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00345.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00345",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00346",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00346.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00346",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00347",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00347.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00347",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00348",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00348.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00348",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00349",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00349.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00349",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00350",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00350.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00350",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00351",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00351.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00351",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00352",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00352.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00352",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00353",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00353.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00353",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00354",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00354.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00354",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00355",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00355.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00355",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00356",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00356.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00356",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00357",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00357.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00357",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00358",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00358.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00358",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00359",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00359.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00359",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00360",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00360.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00360",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00361",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00361.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00361",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00362",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00362.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00362",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00363",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00363.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00363",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00364",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00364.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00364",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00365",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00365.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00365",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00366",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00366.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00366",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00367",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00367.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00367",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00368",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00368.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00368",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00369",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00369.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00369",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00370",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00370.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00370",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00371",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00371.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00371",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00372",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00372.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00372",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00373",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00373.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00373",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00374",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00374.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00374",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00375",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00375.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00375",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00376",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00376.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00376",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00377",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00377.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00377",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00378",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00378.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00378",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00379",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00379.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00379",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00380",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00380.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00380",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00381",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00381.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00381",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00382",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00382.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00382",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00383",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00383.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00383",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00384",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00384.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00384",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00385",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00385.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00385",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00386",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00386.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00386",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00387",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00387.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00387",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00388",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00388.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00388",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00389",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00389.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00389",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00390",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00390.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00390",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00391",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00391.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00391",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00392",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00392.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00392",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00393",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00393.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00393",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00394",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00394.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00394",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00395",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00395.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00395",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00396",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00396.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00396",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00397",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00397.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00397",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00398",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00398.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00398",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00399",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00399.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00399",
+			"-inputformat", "TextInputFormat"
+		]
+	},
+	{
+		"Name": "segment_1566027312025.20_file_00453",
+		"ActionOnFailure": "CONTINUE",
+		"Jar": "/usr/lib/hadoop-mapreduce/hadoop-streaming.jar",
+		"Args": [
+			"-files", "s3://ubiqum-alfonso-aws-bucket1/Mapper.py,s3://ubiqum-alfonso-aws-bucket1/Reducer.py",
+			"-mapper", "Mapper.py",
+			"-reducer", "Reducer.py",
+			"-input", "s3://commoncrawl/crawl-data/CC-MAIN-2019-35/segments/1566027312025.20/wet/CC-MAIN-20190817203056-20190817225056-00453.warc.wet.gz",
+			"-output", "s3://ubiqum-alfonso-aws-bucket2/1566027312025.20_00453",
+			"-inputformat", "TextInputFormat"
+		]
+	}
+]
